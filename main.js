@@ -21,3 +21,22 @@ if (validar){
     alert ("Usuario o contraseña incorrecto");
 }
 }
+
+// seleccion de productos 
+let productos = [
+    { nombre: "Producto 1", precio: 2500 },
+    { nombre: "Producto 2", precio: 3000},
+    { nombre: "Producto 4", precio: 5000 },
+    { nombre: "Producto 5", precio: 2300 },
+    { nombre: "Producto 6", precio: 6000 },
+    { nombre: "Producto 7", precio: 2800},
+    { nombre: "Producto 8", precio: 1000 },
+    { nombre: "Producto 9", precio: 1500},
+    { nombre: "Producto 10", precio: 3800},
+  ];
+  const impuesto = 0.21;
+  for (let i =0; i <productos.length; i++){
+    let productos = productos [i];
+    let precioFinal = productos.precio *(1+impuesto);
+    console.log(`El total a pagar por ${producto.nombre} es ${precioFinal}`);
+}
