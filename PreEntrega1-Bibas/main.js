@@ -1,15 +1,15 @@
-function saludar (){
-    console.log ("Hola")
+function saludar() {
+    console.log("Hola")
 }
 saludar()
 
 let edadIngresada = confirm("¿tenes mas de 18 años?")
 
-if (edadIngresada === true){
-    console.log ("Podes comprar tranquil@");
+if (edadIngresada === true) {
+    console.log("Podes comprar tranquil@");
 
-}else {
-    console.log ("No podes comprar, eres menor de 18");
+} else {
+    console.log("No podes comprar, eres menor de 18");
 }
 
 // login de la pagina 
@@ -31,22 +31,53 @@ while (login) {
 
 // seleccion de productos mas impuesto
 let productos = [
-    { nombre: "Producto 1", precio: 2500 },
-    { nombre: "Producto 2", precio: 3000},
-    { nombre: "Producto 4", precio: 5000 },
-    { nombre: "Producto 5", precio: 2300 },
-    { nombre: "Producto 6", precio: 6000 },
-    { nombre: "Producto 7", precio: 2800},
-    { nombre: "Producto 8", precio: 1000 },
-    { nombre: "Producto 9", precio: 1500},
-    { nombre: "Producto 10", precio: 3800},
+    { id: 1, nombre: "whiskey", precio: 2500 },
+    { id: 2, nombre: "vocka", precio: 3000 },
+    { id: 3, nombre: "vino tinto", precio: 5000 },
+    { id: 4, nombre: "vino blanco", precio: 2300 },
+    { id: 5, nombre: "ron", precio: 6000 },
+    { id: 6, nombre: "fernet", precio: 2800 },
+    { id: 7, nombre: "champagne", precio: 1000 },
+    { id: 8, nombre: "cerveza", precio: 1500 },
+    { id: 9, nombre: "anis", precio: 3800 },
 ];
 
-const impuesto = 0.21;
+/*suma de impuestos a los productos*/
+function sumarImpuestos(productos) {
+    const impuestoPorcentaje = 0.21; 
+    return productos.map(producto => ({
+        ...producto,
+        precioConImpuestos: producto.precio * (1 + impuestoPorcentaje)
+    }));
+}
+/*mostrar lista de producto*/
+function mostrarProductosConImpuestos(productosMostrados) {
+    let mensaje = 'Lista de Productos con Impuestos incluidos:\n\n';
 
-for (let i = 0; i < productos.length; i++) {
-    let producto = productos[i];
-    let precioFinal = producto.precio * (1 + impuesto);
-    console.log(`El total a pagar por ${producto.nombre} es ${precioFinal}`);
+    productosMostrados.forEach(producto => {
+        mensaje += `${producto.nombre} - $${producto.precioConImpuestos.toFixed(2)}\n`;
+    });
+
+    alert(mensaje);
+}
+/*filtrar los productos por nombre*/
+function filtrarProductosPorNombre() {
+    const filtroNombre = prompt('Ingresa el nombre del producto que buscas:');
+    const productosFiltrados = productos.filter(producto =>
+        producto.nombre.toLowerCase().includes(filtroNombre.toLowerCase())
+    );
+
+    if (productosFiltrados.length > 0) {
+        const productosConImpuestos = sumarImpuestos(productosFiltrados);
+        mostrarProductosConImpuestos(productosConImpuestos);
+    } else {
+        alert('No se encontraron productos con ese nombre.');
+    }
 }
 
+/*aparece en la pantalla*/
+window.onload = () => {
+    filtrarProductosPorNombre();
+    const productosConImpuestos = sumarImpuestos(productos);
+    
+};

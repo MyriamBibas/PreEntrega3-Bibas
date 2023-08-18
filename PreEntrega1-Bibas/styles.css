@@ -22,27 +22,7 @@
     margin: auto;
 }
 
-/*foter*/
-.footer {
-    height: 300px;
-    width: 100 vw;
-    background-color: lightgray;
-}
-
-.icon {
-    display: block;
-    margin: 10px;
-    margin-bottom:50 px;
-    margin-top: 50px;
-}
-.parrafo{
-    display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-
+/*contenido*/
 
 
 .grid-container {
@@ -66,4 +46,24 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+/*footer*/
+.footer {
+    height: 300px;
+    width: 100 vw;
+    background-color: lightgray;
+}
+
+.icon {
+    display: block;
+    margin: 10px;
+    margin-bottom:50 px;
+    margin-top: 50px;
+}
+.parrafo{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
 }
