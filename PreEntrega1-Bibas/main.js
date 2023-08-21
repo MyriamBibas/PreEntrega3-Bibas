@@ -29,7 +29,7 @@ while (login) {
 }
 
 
-// seleccion de productos mas impuesto
+/*lista de productos*/
 let productos = [
     { id: 1, nombre: "whiskey", precio: 2500 },
     { id: 2, nombre: "vocka", precio: 3000 },

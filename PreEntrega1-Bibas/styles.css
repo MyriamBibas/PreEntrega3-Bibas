@@ -22,6 +22,7 @@
     margin: auto;
 }
 
+
 /*contenido*/
 
 
@@ -48,6 +49,7 @@
 
 }
 
+
 /*footer*/
 .footer {
     height: 300px;
@@ -58,10 +60,11 @@
 .icon {
     display: block;
     margin: 10px;
-    margin-bottom:50 px;
+    margin-bottom: 50 px;
     margin-top: 50px;
 }
-.parrafo{
+
+.parrafo {
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
