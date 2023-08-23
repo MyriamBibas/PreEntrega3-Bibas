@@ -1,0 +1,72 @@
+/*header*/
+.h1 {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategrey;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+
+/*contenido*/
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    padding: 8%;
+    justify-content: center;
+}
+
+.imagen-grid {
+    text-align: center;
+
+}
+
+
+.text-card {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*footer*/
+.footer {
+    height: 300px;
+    width: 100 vw;
+    background-color: lightgray;
+}
+
+.icon {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50 px;
+    margin-top: 50px;
+}
+
+.parrafo {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
