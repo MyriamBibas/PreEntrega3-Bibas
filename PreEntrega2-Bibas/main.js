@@ -33,7 +33,7 @@ let productos = [
     { id: 17, nombre: "ron carupano añejo", precio: 7500 },
     { id: 18, nombre: "cerveza corona", precio: 1000},
     { id: 19, nombre: "cerveza solera", precio: 1500 },
-    { id: 20, nombre: "cerveza regional", precio: 1800},
+    { id: 20, nombre: "cerveza polar", precio: 1800},
 
 
 ];
