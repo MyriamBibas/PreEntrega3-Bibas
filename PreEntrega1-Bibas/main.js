@@ -24,22 +24,22 @@ let productos = [
     { id: 8, nombre: "cerveza heineken", precio: 1500 },
     { id: 9, nombre: "anis", precio: 3800 },
     { id: 10, nombre: "vocka smirnoff", precio: 3900 },
-    { id: 11, nombre: "vino tinto alma mora", precio:3500},
-    { id: 12, nombre: "vino tinto trapiche cabernet sauvignon", precio: 4000},
+    { id: 11, nombre: "vino tinto alma mora", precio: 3500 },
+    { id: 12, nombre: "vino tinto trapiche cabernet sauvignon", precio: 4000 },
     { id: 13, nombre: "vino blanco  trapiche cosecha tardia ", precio: 3900 },
     { id: 14, nombre: "vino blanco alma mora pinot grigio", precio: 4000 },
     { id: 15, nombre: "ron santa teresa", precio: 7000 },
     { id: 16, nombre: "ron cacique", precio: 6800 },
     { id: 17, nombre: "ron carupano añejo", precio: 7500 },
-    { id: 18, nombre: "cerveza corona", precio: 1000},
+    { id: 18, nombre: "cerveza corona", precio: 1000 },
     { id: 19, nombre: "cerveza solera", precio: 1500 },
-    { id: 20, nombre: "cerveza polar", precio: 1800},
+    { id: 20, nombre: "cerveza polar", precio: 1800 },
 
 ];
 
 /*suma de impuestos a los productos*/
 function sumarImpuestos(productos) {
-    const impuestoPorcentaje = 0.21; 
+    const impuestoPorcentaje = 0.21;
     return productos.map(producto => ({
         ...producto,
         precioConImpuestos: producto.precio * (1 + impuestoPorcentaje)
@@ -74,5 +74,10 @@ function filtrarProductosPorNombre() {
 window.onload = () => {
     filtrarProductosPorNombre();
     const productosConImpuestos = sumarImpuestos(productos);
-    
+
 };
+/*footer*/
+document.getElementById('ir-arriba').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
