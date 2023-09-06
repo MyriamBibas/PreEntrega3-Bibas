@@ -23,13 +23,19 @@
     <hr>
     
     <!-- Barra de navegacion -->
-    <form id="search-form" class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
-
+    <input id="buscador" placeholder="Buscar por nombre">
+    <button id="buscar">BUSCAR</button>
+  
+    
     <!-- Contenido -->
-    <div id="producto"> </div>
+    <div id="productos"> </div>
+    <div>
+        <div id="carrito"></div>
+        <div>
+          <button id="finalizarCompra">FINALIZAR COMPRA</button>
+        </div>
+      </div>
+      <div id="productos"></div>
 
     <!-- footer -->
     <footer class="footer">
@@ -108,7 +114,7 @@
             </div>
         </div>
     </footer>
-    <script src="./main.js"></script>
+    <script src="/main.js"></script>
 </body>
 
 </html>
