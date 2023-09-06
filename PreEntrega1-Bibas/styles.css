@@ -1,4 +1,4 @@
-/*header*/
+
 .h1 {
     font-size: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,6 +19,8 @@ a {
 }
 
 /* header*/
+
+  
 .logo-container {
     display: flex;
     justify-content: center;
@@ -31,12 +33,16 @@ a {
     width: 500px;
     margin: auto;
 }
+/*barra de navegacion*/
 
-
+#search-form{
+    width: 50%;
+    margin: 0 auto;
+  }
 /*contenido*/
 
 
-.grid-container {
+.tarjetaProducto {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
