@@ -1,0 +1,193 @@
+[
+    {
+        "id": "1",
+        "titulo": "Whiskey",
+        "imagen": "imagenes-proyecto/whiskey.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "2",
+        "titulo": "Vocka absolub",
+        "imagen": "imagenes-proyecto/vocka.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "3",
+        "titulo": "Vino Blanco Da Vinci",
+        "imagen": "imagenes-proyecto/vino-blanco.jpg",
+        "categoria": {
+            "nombre": "Vino",
+            "id": "vino"
+        },
+        "precio": "2300"
+    },
+    {
+        "id": "4",
+        "titulo": "Vino Tinto Mauro",
+        "imagen": "imagenes-proyecto/vino-tinto.jpg",
+        "categoria": {
+            "nombre": "Vino",
+            "id": "vino"
+        },
+        "precio": "5000"
+    },
+    {
+        "id": "5",
+        "titulo": "Ron Havanna",
+        "imagen": "imagenes-proyecto/ron.jpg",
+        "categoria": {
+            "nombre": "Ron",
+            "id": "ron"
+        },
+        "precio": "6000"
+    },
+    {
+        "id": "6",
+        "titulo": "Fernet",
+        "imagen": "imagenes-proyecto/fernet.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": "2800"
+    },
+    {
+        "id": "7",
+        "titulo": "Champagne",
+        "imagen": "imagenes-proyecto/champagne.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": "1000"
+    },
+    {
+        "id": "8",
+        "titulo": "Cerveza Heineken",
+        "imagen": "imagenes-proyecto/cerveza.png",
+        "categoria": {
+            "nombre": "Cervezas",
+            "id": "cervezas"
+        },
+        "precio": "1500"
+    },
+    {
+        "id": "9",
+        "titulo": "Anis",
+        "imagen": "imagenes-proyecto/anis.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": "3800"
+    },
+    {
+        " id": "10",
+        "titulo": "Vocka Smirnoff",
+        "imagen": "imagenes-proyecto/vockasmirnoff.jpg",
+        "categoria": {
+            "nombre": "Otras bebidas",
+            "id": "bebidas"
+        },
+        "precio": "3900"
+    },
+    {
+        "id": "11",
+        "nombre":"Vino Tinto Alma Mora",
+        "imagen": "imagenes-proyecto/vinotintoalmamora.jpg",
+        "categoria": {
+            "nombre": "vino",
+            "id": "vino"
+        },
+        "precio": "3500"
+    },
+    {
+        "id": "12",
+        "titulo": "Vino Tinto Trapiche Cabernet Sauvignon",
+        "imagen": "imagenes-proyecto/vinotintotrapiche.jpg",
+        "categoria": {
+            "nombre": "Vino",
+            "id": "vino"
+        },
+        "precio": "4000"
+    },
+    {
+        "id": "13",
+        "titulo": "Vino Blanco Trapiche Cosecha Tardía",
+        "imagen": "imagenes-proyecto/vinoblancotrapiche.jpg",
+        "categoria": {
+            "nombre": "Vino",
+            "id": "vino"
+        },
+        "precio": "3900"
+    },
+        {
+            "id": "14",
+            "titulo": "Ron Santa Teresa",
+            "imagen": "imagenes-proyecto/ronsantateresa.jpg",
+            "categoria": {
+                "nombre": "Ron",
+                "id": "ron"
+            },
+            "precio": "7000"
+        },
+            {
+                "id": "15",
+                "titulo": "Ron Cacique",
+                "imagen": "imagenes-proyecto/roncacique.jpg",
+                "categoria": {
+                    "nombre": "Ron",
+                    "id": "ron"
+                },
+                "precio": "6800"
+            },
+                {
+                    "id": "16",
+                    "titulo": "Ron Carupano Añejo",
+                    "imagen": "imagenes-proyecto/roncarupano.jpg",
+                    "categoria": {
+                        "nombre": "Ron",
+                        "id": "ron"
+                    },
+                    "precio": "7500"
+                },
+                    {
+                        "id": "17",
+                        "titulo": "Cerveza Corona",
+                        "imagen": "imagenes-proyecto/cervezacorona.jpg",
+                        "categoria": {
+                            "nombre": "Cervezas",
+                            "id": "cervezas"
+                        },
+                        "precio": "1000"
+                    },
+                        {
+                            "id": "18",
+                            "titulo": "Cerveza Solera",
+                            "imagen": "imagenes-proyecto/cervezasolera.jpg",
+                            "categoria": {
+                                "nombre": "Cervezas",
+                                "id": "cervezas"
+                            },
+                            "precio": "1500"
+                        },
+
+                            {
+                                "id": "19",
+                                "titulo": "Cerveza Polar",
+                                "imagen": "imagenes-proyecto/cervezapolar.jpg",
+                                "categoria": {
+                                    "nombre": "Cervezas",
+                                    "id": "cervezas"
+                                },
+                                "precio": "1800"
+                            }
+                            ]
